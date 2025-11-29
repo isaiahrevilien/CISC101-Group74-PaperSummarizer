@@ -4,17 +4,17 @@ This repository contains the full implementation of the Paper Summarizer project
 The system processes full academic papers and produces structured summaries, section tables, glossaries, and warnings based on the PS2 Specification.
 
 ## 📂 Repository Structure
-/
-│ system_prompt.md
-│ README.md
-│
-└── modules/
-      module1_intake_setup.md
-      module2_section_loop.md
-      module3_guardrails.md
-      module4_rendering_refinement.md
-      module5_citation_extraction_verification.md
-      module6_key_contributions_rhetorical_moves.md
+- /
+- │ system_prompt.md
+- │ README.md
+- │
+- └── modules/
+-       module1_intake_setup.md
+-       module2_section_loop.md
+-       module3_guardrails.md
+-       module4_rendering_refinement.md
+-       module5_citation_extraction_verification.md
+-       module6_key_contributions_rhetorical_moves.md
 
 ## 🧠 System Prompt
 
