@@ -3,7 +3,7 @@
 This repository contains the full implementation of the Paper Summarizer project, following the modular architecture pattern used in the Travel Planner assignment.
 The system processes full academic papers and produces structured summaries, section tables, glossaries, and warnings based on the PS2 Specification.
 
-# 📂 Repository Structure
+## 📂 Repository Structure
 /
 │ system_prompt.md
 │ README.md
@@ -16,7 +16,7 @@ The system processes full academic papers and produces structured summaries, sec
       module5_citation_extraction_verification.md
       module6_key_contributions_rhetorical_moves.md
 
-# 🧠 System Prompt
+## 🧠 System Prompt
 
 system_prompt.md includes:
 
@@ -32,7 +32,7 @@ MLA & word-limit enforcement
 
 Embedded PS2 Specification
 
-# 🔧 Modules
+## 🔧 Modules
 ### ⚙️ Module 1: Intake & Setup
 
 Normalize section titles.
@@ -55,7 +55,7 @@ Apply PS2 constraints.
 
 Flag missing, empty, or short sections.
 
-# 🛡️ Module 3: Guardrails
+### 🛡️ Module 3: Guardrails
 
 Handle missing or empty sections.
 
@@ -65,7 +65,7 @@ Prevent hallucinations.
 
 Apply chunking safeguards.
 
-# 🧩 Module 4: Rendering & Refinement
+### 🧩 Module 4: Rendering & Refinement
 
 Assemble all required outputs.
 
@@ -77,7 +77,7 @@ Create the glossary.
 
 Generate the Checks & Warnings list.
 
-# 📝 Module 5: Citation Extraction & Verification
+### 📝 Module 5: Citation Extraction & Verification
 
 Extract citations from the paper.
 
@@ -87,7 +87,7 @@ Flag citation issues.
 
 Add citation warnings to Checks & Warnings.
 
-# 🎯 Module 6: Key Contributions & Rhetorical Moves Detector
+### 🎯 Module 6: Key Contributions & Rhetorical Moves Detector
 
 Identify main contributions.
 
@@ -97,7 +97,7 @@ Provide notes for expert/lay summaries.
 
 Flag weak or missing rhetorical elements.
 
-# 📎 Assignment Deliverables (Submitted Separately)
+## 📎 Assignment Deliverables (Submitted Separately)
 
 Screenshot of Copilot running the meta-prompt
 
